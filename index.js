@@ -1,129 +1,121 @@
-/*const dog1 = {
-  name:'bobik',
-  gender: 'boy',
-  say: function(){
-    return 'guf'
-  }
-};
-
-console.log(dog1)
-const dog2 = {
-  name:'guchka',
-  gender: 'true',
-  say: function(){
-    return 'rrr'
-  }
-} ;
-function Dog (name,gender){}
-*/
+'use strict'
+// const toString = function (){
+//   return `${this.name}${this.name}`
+//   }
 
 
+//  const animal = {
+//    eat:function(){
+//      return this.name + 'is eating';
+//    }
+//  }
+
+//   //это литеральное объявленние//
+//   const man = {
+//     countFingers:5,
+//     name:'human',
+//     read:function(){
+//       return this.name + 'reding'
+//     }
+//   }
+
+// const student1 = {
+//   id:1,
+//   name:'Elon',
+//   sname:'Musk',
+//   age:50
+//   toString: ''
+//   };
+
+//   man.__proto__ = animal;
+// //слева наследник, справа родитель man//
+// student1.__proto__ = man;
+// console.log(student1);
+// console.log(student1.read());
 
 
-// function Country(name ='USA', population = 330000, area =3000){
-//   this.name = name;
-//   this.population = population;
-//   this.area = area;
-//   this.getDensity = function(){
-//     return this.population / this.area;
+
+  // const student2 = {
+  //   id:1,
+  //   name:'El',
+  //   sname:'Muc',
+  //   age:33
+  //   toString:toString,
+  //   };
+
+
+
+
+// console.log(student2);
+// console.log(student2.toString === student1.toString);
+
+// const rabbit = {
+//   countPaw=4,
+//   name:'rob',
+//   jump:function(){
+//     return this.name + 'jumping';
 //   }
 // }
-// const usa = new Country();
-// console.log(usa);
-// console.log(usa.getDensity());
+// const rabbitPet
+// const rabbitMagic
 
-/*
-function Auto(marka='bmv', maxSpeed=450){
-  this.name = marka;
-  this.maxSpeed = maxSpeed;
-  this.speed = 0;
+// function Ladder(){
+//   this.step = 0;
+// };
 
-this.asselerate = function(value){
-  this.speed += value;
-  return this.speed;
-  };
+// function LadderProto(){
+//   this.showStep = function() {
+//     return this.step;
+//   }
+//   this.up = function() {
+//    this.step++;
+//    return this;
 
-  this.decelerate = function(value){
-    this.speed -= value;
-    return this.speed;
-  };
+//   }
+//   this.down=function() {
+//    this.step--;
+
+//   }
+// };
+// Ladder.prototype = new LadderProto();
+// const ladder = new Ladder('step');
+// console.log(ladder.showStep());
+// console.log(stairs.up().up().down().up().showStep);
+
+
+// const count[1,2,3};
+
+
+
+
+// 13.5.22
+// function User(fname, sname, age, isMale, email, isSubscribing = false){
+//   this.fname = fname;
+//   this.sname = sname;
+//   this.age = age;
+//   this.isMale = isMale;
+//   this.email;
+// }
+// function UserPrototype(){
+//   this.getFullName = function(){
+//     return `${this.fname} ${this.sname}`;
+//   }
+// }
+// User.prototype = UserPrototype();
+
+// const createRandomUsers = function(amount=1){
+//   const db = [];
+//   for (let i = 0; i < amount; i++) {
+//     const User = new User;(
+//       `Name${i}`,
+//       `Sname${i}`,
+//       Math.floor(Math.random() * (80 - 20)) + 20
+//     );
+    
+//   };
+//   db.push(user);
   
-  this.stop = function(){
-    return (this.speed=0);
-  };
-}
-const auto = new Auto();
-console.log(auto);
-console.log(auto.asselerate());
-console.log(auto.speed);*/
+// };
 
 
-
-
-/*
-const logRangeNumber = function (max = 10, min = 1, number = 3) {
-  //проверка на вход
-  if (max < min) {
-    return false;
-  }
-  //выводить числа из диапозона в обратном порядке
-  for (let i = max; i >= min; i--) {
-    //логировать кратные числу
-    if (i % number === 0) {
-      console.log(i);
-    }
-  }
-  return true;
-};*/
-
-/*
-const trenningMath = function(namber1 =10, namber2= 2, operator  ='+');
- prompt('2*8=', 'your answer');
- while(let i =)
- if (2*8===16){
- return true;
- }
- */
-
-
-//  let countTry = 0;
-//  alert('try = ' + countTry);
-//  prompt ();
- 
-//  if (countTry === ){
-//  alert ('How you know?!');
-//  return '37';
-
- 
- 
- 
-
- /*
- while (countTry < SECRET_NAMBER);
- const userInput = prompt('enter my age', '**');
- countTry++;
- {
- 
- return(countTry());
-}
- console.log (37);
-
- */
-let countTry = 0;
-while (true){
-  
-  const userInput =  prompt('guess the number');
-  const userInputNumber = parseInt(userInput);
-
-  countTry = countTry + 1;
-  
-  if (userInputNumber === SECRET_NAMBER){
-    alert("win. countTry: " + countTry);
-    break;
-   } else if (userInputNumber < SECRET_NAMBER){
-    alert("Secret number is bigger");
-  } else if (userInputNumber > SECRET_NAMBER){
-    alert("Secret number is less");  
-  }
-}
 
