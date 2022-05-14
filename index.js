@@ -27,3 +27,18 @@ let nambers = [1, 2, 3];
 nambers.unshift(-2,-1,0);
 
 console.log(nambers);
+
+//shift
+let kit = ['js', 'css', 'html'];
+console.log('kit before: ' + kit);
+
+let set = kit.shift();
+console.log('kit after: ' + kit);
+console.log('set after: ' + set);
+
+//pop
+let kit2 = ['js', 'css', 'html'];
+console.log('kit2 before:' + kit2);
+
+let set2 = kit2.pop();
+console.log('set2 after:' + set2);
