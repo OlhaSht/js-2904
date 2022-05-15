@@ -42,3 +42,13 @@ console.log('kit2 before:' + kit2);
 
 let set2 = kit2.pop();
 console.log('set2 after:' + set2);
+
+//siice
+let books = ['1', '2', '3', '4', '5'];
+let somBooks = books.slice(0, 3);
+console.log(somBooks);
+
+let papers = ['1', '2', '3', '4', '5'];
+let anyPapers = papers.slice(3);
+console.log(anyPapers);
+
