@@ -52,3 +52,26 @@ let papers = ['1', '2', '3', '4', '5'];
 let anyPapers = papers.slice(3);
 console.log(anyPapers);
 
+//splice
+let pen = ['1', '2', '3', '4', '5'];
+console.log(pen.splice(1,2));
+console.log(pen);
+
+let pensil = ['1', '2', '3', '4', '5'];
+console.log(pensil.splice(1, 3));
+
+let bee = ['1', '2', '3', '4', '5'];
+console.log(bee.splice(3, 0, 'a', 'b', 'c'));
+console.log(bee);
+
+let mole = ['1', '2', '3', '4', '5'];
+console.log(mole.splice(1, 0, 'a','b',));
+console.log(mole);
+
+//sort
+let fliets = ['3', '4', '1', '2', '7'];
+console.log(fliets.sort());
+
+
+
+
