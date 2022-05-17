@@ -67,6 +67,10 @@ console.log(bee);
 let mole = ['1', '2', '3', '4', '5'];
 console.log(mole.splice(1, 0, 'a','b',));
 console.log(mole);
+console.log(mole.splice(6, 0, 'c'));
+console.log(mole);
+mole.splice(8,0,'e');
+console.log(mole);
 
 //sort
 let fliets = ['3', '4', '1', '2', '7'];
@@ -82,7 +86,9 @@ const showArgs = (a,b, ...c) => {
   }
   )
 }
-showArgs(1,2,3,4,5);
+// showArgs(1,2,3,4,5);
+
+
 
 
 
