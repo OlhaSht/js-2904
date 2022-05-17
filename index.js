@@ -72,6 +72,18 @@ console.log(mole);
 let fliets = ['3', '4', '1', '2', '7'];
 console.log(fliets.sort());
 
+//=>
+const getMax = (n1, n2) => {n1>n2 ? n1 : n2};
+
+const showArgs = (a,b, ...c) => {
+  console.log(c)
+  c.forEach((item)=>{
+    console.log(this)
+  }
+  )
+}
+showArgs(1,2,3,4,5);
+
 
 
 
