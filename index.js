@@ -76,20 +76,18 @@ console.log(mole);
 let fliets = ['3', '4', '1', '2', '7'];
 console.log(fliets.sort());
 
-//=>
-const getMax = (n1, n2) => {n1>n2 ? n1 : n2};
 
-const showArgs = (a,b, ...c) => {
-  console.log(c)
-  c.forEach((item)=>{
-    console.log(this)
+function hasElem (arr, str){
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    if (element === str) 
+    {return true;}
   }
-  )
-}
-// showArgs(1,2,3,4,5);
+  return false
+};
+console.log(hasElem(['1', '2', '3', 'help'], 'help'));
 
-
-
+   
 
 
 
